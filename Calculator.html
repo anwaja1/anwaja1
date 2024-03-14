@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://zany-goldfish-x5rpwq5rpprjhvx5x-5500.app.github.dev/codespaces-react/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="https://zany-goldfish-x5rpwq5rpprjhvx5x-5500.app.github.dev/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using @vitejs/plugin-react">
+    <link rel="apple-touch-icon" href="https://zany-goldfish-x5rpwq5rpprjhvx5x-5500.app.github.dev/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="https://zany-goldfish-x5rpwq5rpprjhvx5x-5500.app.github.dev/codespaces-react/styles.css" <title=""></head><body>Calculator
+  
+  
+    <script src="./Calculator_files/script.js" defer=""></script>
+    <div class="Calculator-grid">
+    <div class="output" <="" div=""></div>
+  <div class="current-operand"></div>
+  <button class="span-two">AC</button>
+  <button>DEL</button>
+  <button>+</button>
+  <button>0</button>
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+  <button>6</button>
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>
+  <button>*</button>
+  <button>%</button>
+  <button>.</button>
+  <button>-</button>
+  <button>=</button>
+
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+  <script type="module" src="./Calculator_files/index.jsx"></script>
+
+</div></body></html>
